@@ -2,85 +2,6 @@ body{
   margin: 0;
   padding: 0;
 }
-/* .brand {
-  position: relative;
-  margin-bottom: 30px;
-  padding: 30px 0;
-  background: #ffffff;
-}
-
-.brand .brand-item {
-  text-align: center; 
-}
-
-.brand .brand-item img {
-  max-width: 100%;
-  margin: auto; 
-}
-
-.brand .slick-prev,
-.brand .slick-next {
-  width: 40px;
-  height: 40px;
-  z-index: 1;
-  opacity: 0;
-  transition: .5s;
-  background: #FF6F61;
-  border-radius: 4px;
-}
-
-.brand .slick-prev {
-  left: 55px;
-}
-
-.brand .slick-next {
-  right: 55px;
-}
-
-.brand .slick-slider:hover .slick-prev {
-  left: 15px;
-  opacity: 1;
-}
-
-.brand .slick-slider:hover .slick-next {
-  right: 15px;
-  opacity: 1;
-}
-
-.brand .slick-prev:hover,
-.brand .slick-prev:focus,
-.brand .slick-next:hover,
-.brand .slick-next:focus {
-  background: #000000;
-}
-
-.brand .slick-prev:hover::before,
-.brand .slick-prev:focus::before,
-.brand .slick-next:hover::before,
-.brand .slick-next:focus::before {
-  color: #FF6F61;
-}
-
-.brand .slick-prev::before,
-.brand .slick-next::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 30px;
-  color: #000000;
-}
-
-.brand .slick-prev::before {
-  content: "\f104";
-}
-
-.brand .slick-next::before {
-  content: "\f105";
-}
-
-.container-fluid {
-  padding-right: 60px;
-  padding-left: 60px;
-} */
 
 .p1 {
   font-family: "Times New Roman", Times, serif;
@@ -151,7 +72,7 @@ body {
 }
 
 .cont1{
-  width: 1400px;
+  width: auto;
 
 }
 
@@ -168,10 +89,176 @@ h3 {
   line-height: 0.1em;
   margin: 10px 0 20px; 
   text-align: center;
-  
+  font-family: emoji;
 } 
 
 h3 span { 
    background:#fff; 
    padding:0 10px; 
+}
+
+.box :hover{
+  opacity: 0.5;
+  transition-duration: 0.5;
+}
+
+.cent{
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding-left: 308px;
+  padding-top: 20px;
+}
+
+/* .d-flex{
+  border: 3px;
+} */
+
+.vertical{
+  border-left: 6px solid black;
+            height: 200px;
+            position:absolute;
+            left: 50%;
+}
+
+.vid{
+  height: 421px;
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+}
+
+.image-with-text {
+  background-image: url("../public/img/bmw4.png");
+  background-size: cover;
+  height: 745px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.height{
+  height: 100vh;
+ }
+ 
+
+ .search{
+ position: relative;
+ box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+   
+ }
+
+ .search input{
+
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+
+
+ }
+
+
+ .search input:focus{
+
+  box-shadow: none;
+  border: 2px solid rgb(220, 220, 237);
+
+
+ }
+
+ .search .fa-search{
+
+  position: absolute;
+  top: 20px;
+  left: 16px;
+
+ }
+
+ .search button{
+
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: rgb(160, 31, 31);
+
+ }
+
+ .col-md-8{
+  margin-top: 450px;
+    /* margin-right: 600px; */
+ }
+
+.vids{
+  border-radius: 30px;
+  border: 5px;
+  
+}
+
+.cardm:hover{
+  transform: scale(1.05);
+box-shadow: 0 0px 0px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+}
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem auto 4rem;
+}
+
+.product--image {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+} */
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+  color: #808080;
 }
